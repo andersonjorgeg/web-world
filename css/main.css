@@ -248,3 +248,18 @@ section p {
   justify-content: center;
   overflow: hidden;
 }
+
+.box-texto h4{
+  margin-top: 30px;
+  margin-left: 20px;
+  text-align: start;
+  margin-bottom: 10px;
+  color: #797878;
+}
+
+.box-texto p {
+  margin-left: 20px;
+  text-align: start;
+  margin-top: 0;
+  
+}
