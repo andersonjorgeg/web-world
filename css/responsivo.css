@@ -76,6 +76,10 @@
 }
 
 @media (max-width: 425px) {
+  .rede-sociais-top {
+    display: none;
+  }
+
   .header-2 {
     display: flex;
     flex-direction: column;
@@ -95,4 +99,31 @@
     width: 100%;
   }
 
+  button.slick-next {
+    display: none !important;
+  }
+
+  button.slick-prev {
+    display: none !important;
+  }
+
+  .slick-dots {
+    display: none !important;
+  }
+
+  .rodape-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .footer-2 p, 
+  .footer-2 .redes-sociais ul {
+    margin: 20px 0;
+}
 }
