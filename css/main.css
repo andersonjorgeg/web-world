@@ -68,6 +68,7 @@ body {
   text-transform: uppercase;
   padding-bottom: 32px;
   font-weight: bold;
+  transition: all .3s;
 }
 
 .header-2 nav ul li a:hover {
@@ -236,11 +237,11 @@ section p {
   width: 100%;
   margin: 0 auto;
   gap: 10px;
-  
+  padding: 30px 0;
 }
+
 .box-galeria article {
   width: calc(100% / 3 - 20px);
-  margin-top: 60px;
   display: flex;
   flex-direction: column;
   border: 1px solid #ccc;
@@ -262,4 +263,101 @@ section p {
   text-align: start;
   margin-top: 0;
   
+}
+
+.marcas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.ultima-imagem{
+  margin-right: 20px;
+}
+
+.footer-1 {
+  background-color: #4e514d;
+  color: #fff;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+  padding: 30px 0;
+}
+
+.coluna-rodape {
+  width: 25%;
+}
+
+.coluna-rodape h4 {
+  font-size: 22px;
+  font-weight: normal
+}
+
+.coluna-rodape p {
+  font-size: 14px;
+}
+
+.coluna-rodape p span {
+  font-size: 20px;
+  color: #fff;
+}
+
+.coluna-rodape:last-child {
+  margin-right: 5px;
+}
+
+.box-imagem-paragrafo {
+  display: flex;
+  align-items: center;
+}
+
+.img-rodape-esquerda img{
+  margin-right: 10px;
+}
+
+.img-rodape-esquerda p {
+  color: #898989;
+}
+
+.img-rodape-direita img{
+  margin-right: 20px;
+}
+
+.logo-rodape {
+  color: #00bac6;
+  font-size: 20px;
+}
+
+.paragrafo-rodape {
+  color: #babab9;
+}
+
+.footer-2 {
+  background-color: #282327;
+  color: #fff;
+}
+
+.footer-2 p,
+.footer-2 .redes-sociais ul {
+  margin: 0;
+}
+
+.footer-2 p {
+  font-size: 14px;
+  color: #babab9;
+}
+
+.rodape-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.footer-2 .redes-sociais {
+  margin-right: 65px;
 }
