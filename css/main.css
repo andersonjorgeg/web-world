@@ -16,6 +16,7 @@ body {
   height: 100%;
   height: 60px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -31,6 +32,7 @@ body {
 
 .redes-sociais ul {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row-reverse;
   align-items: center;
   margin-right: 10px;
@@ -43,6 +45,7 @@ body {
 
 .header-2 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -51,6 +54,7 @@ body {
 
 .header-2 nav ul {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   padding-left: 10px;
@@ -86,6 +90,7 @@ body {
   width: 180px;
   height: 36px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .busca input{
@@ -141,6 +146,7 @@ button.slick-next {
   bottom: 0;
   left: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 96%;
@@ -166,19 +172,22 @@ ul.slick-dots li {
   background-color: #00bac6;
 }
 
-section h3 {
+
+.titulo-paragrafo h3 {
   text-align: center;
   font-size: 30px;
+  font-weight: normal;
   text-transform: uppercase;
   color: #818181;
   margin-top: 55px;
 }
 
-section h3 span {
+.titulo-paragrafo h3 span {
   color: #646464;
+  font-weight: bold;
 }
 
-section p {
+.titulo-paragrafo p {
   text-align: center;
   font-size: 15px;
   color: #818181;
@@ -187,6 +196,7 @@ section p {
 
 .imagem-titulo-paragrafo {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -243,6 +253,7 @@ section p {
 .box-galeria article {
   width: calc(100% / 3 - 20px);
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   border: 1px solid #ccc;
   align-items: flex-start;
@@ -267,6 +278,7 @@ section p {
 
 .marcas {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
@@ -283,6 +295,7 @@ section p {
 
 .rodape {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 55px;
   padding: 30px 0;
@@ -312,6 +325,7 @@ section p {
 
 .box-imagem-paragrafo {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -353,6 +367,7 @@ section p {
 
 .rodape-2 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 30px 0;
