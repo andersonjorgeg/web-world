@@ -91,6 +91,10 @@
     font-size: 15px;
   }
 
+  .busca input {
+    width: 100%;
+  }
+
   .titulo-paragrafo h3 {
     font-size: 20px;
   }
@@ -111,13 +115,17 @@
     display: none !important;
   }
 
+  .rodape {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+  }
+
   .rodape-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin-bottom: 20px;
     width: 100%;
     font-size: 15px;
   }
