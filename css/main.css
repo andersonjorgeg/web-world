@@ -13,7 +13,6 @@ body {
 
 .header-1 {
   width: 100%;
-  height: 100%;
   height: 60px;
   display: flex;
   flex-wrap: wrap;
@@ -144,12 +143,12 @@ button.slick-next {
 .slick-dots {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 34px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 96%;
+  width: 90%;
   z-index: 99;
   list-style: none;
 }
@@ -196,7 +195,6 @@ ul.slick-dots li {
 
 .imagem-titulo-paragrafo {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -295,7 +293,7 @@ ul.slick-dots li {
 
 .rodape {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   gap: 55px;
   padding: 30px 0;
@@ -370,6 +368,7 @@ ul.slick-dots li {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   padding: 30px 0;
 }
 

@@ -28,6 +28,11 @@
     display: flex;
   }
 
+  .imagem-titulo-paragrafo {
+    display: flex;
+    flex-direction: column;
+  }
+
   .imagem-titulo-paragrafo img {
     width: 90px;
     height: 90px;
@@ -58,19 +63,21 @@
     width: calc(100% / 2);
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
   }
 
   .rodape {
-    width: calc(100% / 2);
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 
   .coluna-rodape {
-    width: 100%;
+    width: 95%;
   }
 
 }
@@ -97,6 +104,11 @@
 
   .titulo-paragrafo h3 {
     font-size: 20px;
+  }
+
+  .imagem-titulo-paragrafo {
+    display: flex;
+    flex-direction: column;
   }
 
   .box-galeria article {
@@ -133,5 +145,5 @@
   .footer-2 p, 
   .footer-2 .redes-sociais ul {
     margin: 20px 0;
-}
+  }
 }
